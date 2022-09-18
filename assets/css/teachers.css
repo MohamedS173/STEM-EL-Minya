@@ -1,0 +1,69 @@
+/* hero section */
+.hero-image {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../images/teacherbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image p {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+section>div.head {
+    background-color: #003459;
+}
+
+.heading span {
+    width: 320px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.heading h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 73px;
+    width: fit-content;
+}
+
+div.row.teachers {
+    width: 100%;
+    margin: 80px 0px 50px 0px;
+}
+
+.row .col .card {
+    width: 350px;
+    min-height: 330px;
+    height: auto;
+    background-color: #00476D;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+body a.btn {
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+img.card-img-top {
+    width: 120px;
+    height: 120px;
+    border: 10px solid white;
+    margin-top: -70px;
+}
+img.special-decoration{
+    border:0px;
+}
+
+.card h2 {
+    font-size: 30px
+}
+.body p{
+    font-size: 18px;
+}
+
