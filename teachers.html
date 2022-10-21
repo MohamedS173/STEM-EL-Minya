@@ -24,11 +24,11 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container-lg">
+    <nav class=" navbar navbar-expand-md fixed-top">
+        <div class="nav-container bg-white container-lg">
             <a class="navbar-brand" href="./index.html">
-                <img src="./assets/images/logo black bg.png" alt="logo" />
-                <p class=" text-white d-inline-block mb-1">
+                <img src="./assets/images/logo trasparent bg.png" alt="logo" />
+                <p class=" d-inline-block mb-1">
                     STEM Elmenya
                 </p>
             </a>
@@ -39,24 +39,29 @@
             <div class="offcanvas offcanvas-top h-50" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo trasparent bg.png" alt="logo" /></a>
+                    <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo trasparent bg.png" alt="logo" />
+                        <p class="d-inline-block mb-1">
+                            STEM Elmenya
+                        </p>
+                    </a>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body justify-content-end text-center">
                     <ul class="navbar-nav gap-3">
                         <li class="nav-item">
-                            <a class="nav-link text-white "  href="./index.html">Home</a>
+                            <a class="nav-link  " href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold" aria-current="page" href="./teachers.html">Teachers</a>
+                            <a class="nav-link fw-bold" aria-current="page"
+                                href="./teachers.html">Teachers</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" nav-link  text-white" href="./alumni.html">Alumni</a>
+                            <a class=" nav-link  " href="./alumni.html">Alumni</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white disabled" href="#">extracurriculars</a>
+                            <a class="nav-link text-secondary disabled" href="#">extracurriculars</a>
                         </li>
-                        <a class="contact-us button-primary text-white special" href="./contactus.html">Contact Us
+                        <a class="contact-us button-primary  special" href="./contactus.html">Contact Us
                         </a>
                     </ul>
                 </div>
@@ -66,10 +71,12 @@
     <!-- end navbar -->
 
     <section>
-        <div class="hero-image row flex-row justify-content-center align-content-end m-0 ">
-            <p class=" p-5 text-white">Our teachers draws on broad industry<br>
-                experience and networks to create<br>
-                the most powerful outcomes for our students</p>
+        <div class="-container">
+            <div class="hero-image row flex-row justify-content-center align-content-end m-0 ">
+                <p class=" p-5 text-center text-white">Our teachers draws on broad industry
+                    experience and networks to create
+                    the most powerful outcomes for our students</p>
+            </div>
         </div>
     </section>
 
@@ -81,71 +88,124 @@
                 <span class="align-self-end align-self-xl-center"></span>
             </div>
         </div>
-        <div class="row teachers">
+        <div class="container">
+            <div class="row teachers">
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/maths decoration.jpg"
-                        class="card-img-top rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Math</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4 ">Bahget Mahmoud
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/maths decoration.jpg"
+                            class="card-img-top rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Math</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4 ">Bahget Mahmoud
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class="row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4 ">Aya Ahmed </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
-                            <div class="row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4 ">Aya Ahmed </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
-                                    info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Bio decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Biology</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Nesma Hashem
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class="row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Doha </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
+                                        info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/chemistry decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">chemistry</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Hesham
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class="row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Aya Ahmed </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="row teachers ">
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Bio decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Biology</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Nesma Hashem
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                            <div class="row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Doha </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
-                                    info</a>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Physics decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Physics</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Mai
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class="row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Aml Shoke </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/chemistry decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">chemistry</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Hesham
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                            <div class="row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Aya Ahmed </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Geology decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Geology</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Rasha Okasha
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class="row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Mohamed Taha </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -153,210 +213,173 @@
             </div>
 
         </div>
-        <div class="row teachers ">
+        <div class="container">
+            <div class="row teachers ">
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Physics decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Physics</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Mai
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Arabic decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Arabic</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Ahmed Ramdan
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
-                            <div class="row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Aml Shoke </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
-                                    info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Enaglish decoration.png"
+                            class="card-img-top rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">English</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Ahmed Salim
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/French decoration.png"
+                            class="card-img-top rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">French</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Alaa Rashed
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Geology decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Geology</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Rasha Okasha
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                            <div class="row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Mohamed Taha </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white  text-dark text-bold">more
-                                    info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="row teachers ">
+        <div class="container">
+            <div class="row teachers ">
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Arabic decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Arabic</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Ahmed Ramdan
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/German decoration.png"
+                            class="card-img-top  rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">German</h2>
+                            <div class="body">
+                                <div class="row one ">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Shaza
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Enaglish decoration.png"
-                        class="card-img-top rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">English</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Ahmed Salim
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/French decoration.png"
-                        class="card-img-top rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">French</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Alaa Rashed
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row teachers ">
-
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/German decoration.png"
-                        class="card-img-top  rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">German</h2>
-                        <div class="body">
-                            <div class="row one ">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Shaza
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/Social Studies decoration.png"
+                            class="card-img-top rounded-circle  d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Social Studies</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Waleed Saad
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/Social Studies decoration.png"
-                        class="card-img-top rounded-circle  d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Social Studies</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Waleed Saad
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
         </div>
+        <div class="container">
+            <div class="row teachers ">
 
-        <div class="row teachers ">
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/music decoration.png"
-                        class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Music</h2>
-                        <div class="body">
-                            <div class="row one ">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Ashraf Mahran
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/music decoration.png"
+                            class="card-img-top special-decoration rounded-circle d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Music</h2>
+                            <div class="body">
+                                <div class="row one ">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Ashraf Mahran
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/art decoration.png"
-                        class="card-img-top rounded-circle special-decoration  d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">Art</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Asmaa
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/art decoration.png"
+                            class="card-img-top rounded-circle special-decoration  d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">Art</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Asmaa
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class=" col d-flex justify-content-center flex-nowrap p-0">
-                <div class="card">
-                    <img src="./assets/images/subjects/library decoration.png"
-                        class="card-img-top rounded-circle special-decoration d-block mx-auto" alt="...">
-                    <div class="card-body">
-                        <h2 class="card-title text-white  text-center">library</h2>
-                        <div class="body">
-                            <div class=" row one">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Asmaa
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
-                            </div>
-                            <div class=" row two">
-                                <p class="col-md-6 card-text text-white text-bold py-4">Nayera Iprahem
-                                </p>
-                                <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
-                                    info</a>
+                <div class=" col d-flex justify-content-center flex-nowrap p-0">
+                    <div class="card">
+                        <img src="./assets/images/subjects/library decoration.png"
+                            class="card-img-top rounded-circle special-decoration d-block mx-auto" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title text-white  text-center">library</h2>
+                            <div class="body">
+                                <div class=" row one">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Asmaa
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
+                                <div class=" row two">
+                                    <p class="col-md-6 card-text text-white text-bold py-4">Nayera Iprahem
+                                    </p>
+                                    <a href="#" class="col-md-6 btn d-block m-auto bg-white text-dark text-bold">more
+                                        info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <div class="row teachers ">
@@ -378,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class=" col d-flex justify-content-center flex-nowrap p-0">
                     <div class="card">
                         <img src="./assets/images/subjects/IT decoration.png"
@@ -396,8 +419,8 @@
                         </div>
                     </div>
                 </div>
-    
-    
+
+
             </div>
         </div>
     </section>
@@ -452,8 +475,8 @@
                 <div class="footer-col col">
                     <h4>About us</h4>
                     <ul>
-                        <a href="./index.html"><img src="./assets/images/logo black bg.png" style="width: 25% ;" alt="ummm."></a>
-                        <h4 style="color: white; display: unset;">ElMenya STEM school</h4>
+                        <a href="./index.html"><img src="./assets/images/logo black bg.png" style="width: 50px;"  alt="ummm."></a>
+                        <h4 style="color: white;">ElMenya STEM school</h4>
                         <p class="aboutt">
                             STEM ElMenya is an upper Egypt high school which prepare highly-motivated students to be
                             capabble to interact and improve their skills in academic life.

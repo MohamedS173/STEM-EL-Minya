@@ -12,6 +12,9 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 45px;
+    max-width: 72%;
+    display: block;
+    margin: auto;
 }
 
 section>div.head {

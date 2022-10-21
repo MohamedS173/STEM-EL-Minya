@@ -137,9 +137,10 @@ section-4 .thumb img {
 
 section-4 .right-image {
     position: relative;
+    z-index: 0;
 }
 
-section-4 .right-image::after {
+section-4 .right-image::before {
     width: 440px;
     height: 300px;
     position: absolute;
@@ -156,7 +157,7 @@ section-4 .left-content p{
 }
 
 @media (max-width: 1280px) {
-    section-4 .right-image::after {
+    section-4 .right-image::before {
         display: none;
     }
     section-4 .row {

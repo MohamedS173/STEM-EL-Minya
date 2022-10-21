@@ -12,11 +12,18 @@ section.contact-us {
     height: 100%;
 }
 
+
 form {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
+    box-shadow: 8px 12px 11px -6px rgba(0,0,0,0.53);
 }
+
+.left-form input{
+    box-shadow: inset 0px -3px 0px 0px #003459;
+}
+
 
 .section-heading h2 span {
     color: #003459;

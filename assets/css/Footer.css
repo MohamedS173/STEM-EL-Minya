@@ -6,7 +6,6 @@ body{
 
        /* background-color: #e91e63; */
 :root{
-	background-image: url(../images/gallary/17.jpeg);
 	background-color: #00476D;
 }
 *{
@@ -18,20 +17,21 @@ body{
 	max-width: 1170px;
 	margin:auto;
 }
-.row{
+.footer .row{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100% !important;
 }
 ul{
 	list-style: none;
+	padding: 0 !important;
 }
 .footer{
 	background-color: #24262b;
     padding: 70px 0;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+.footer .col{
+	min-width: 200px;
 }
 .footer-col h4{
 	font-size: 18px;
